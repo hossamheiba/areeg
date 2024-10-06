@@ -4967,7 +4967,7 @@ ul.wp-block-latest-posts li:last-child {
     position: relative;
     font-weight: 600;
     font-family: var(--body-font);
-    font-size: 18px;
+    font-size: 14px;
     color: var(--title-color);
 }
 
@@ -4976,7 +4976,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .main-menu>ul>li {
-    margin: 0 11px;
+    margin: 0 5px;
 }
 
 .main-menu>ul>li>a {
@@ -15729,7 +15729,7 @@ li.trackback {
     }
 
     [dir=rtl] .header-layout1 .menu-area .main-menu {
-        padding-right: 70px;
+        padding-right: 35px;
         padding-left: 0;
     }
 }
@@ -15756,7 +15756,7 @@ li.trackback {
 
 @media (max-width: 1299px) {
     [dir=rtl] .header-layout1 .menu-area .main-menu {
-        padding-right: 230px;
+        padding-right: 60px;
     }
 }
 
@@ -16209,7 +16209,7 @@ li.trackback {
 
 
 
-@media (min-width:992px) {
+@media (min-width:768px) {
     .navbar-min {
         display: ruby-text;
     }
