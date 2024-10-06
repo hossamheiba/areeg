@@ -16159,9 +16159,9 @@ li.trackback {
 
 
 
-
+/* 
 .news-ticker {
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
     color: #333;
     overflow: hidden;
     width: 100%;
@@ -16194,7 +16194,7 @@ li.trackback {
         transform: translateX(-100%);
     }
 }
-
+ */
 
 
 
@@ -16212,5 +16212,19 @@ li.trackback {
 @media (min-width:768px) {
     .navbar-min {
         display: ruby-text;
+    }
+}
+
+
+
+/* @media (min-width:768px) {
+    .navbar-nav {
+        font-size: 10px;
+    }
+} */
+
+@media (max-width:1300px) {
+    .navbar-nav {
+        font-size: 10px;
     }
 }
