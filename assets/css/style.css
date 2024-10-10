@@ -2245,7 +2245,6 @@ textarea.is-invalid {
     cursor: pointer;
     display: block;
     z-index: 1;
-    border: 2px solid var(--theme-color);
     box-shadow: none;
     border-radius: 50%;
 }
@@ -8637,6 +8636,7 @@ li.trackback {
 /****contact page*****/
 
 .contact-info {
+    height: 240px;
     background: var(--white-color);
     border-bottom: 1px solid var(--theme-color);
     border-radius: 5px;
@@ -12262,7 +12262,20 @@ li.trackback {
     border-radius: 6px;
     overflow: hidden;
 }
+.portfolio-card-thumb::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Black shading */
+    transition: background 0.3s ease;
+}
 
+.portfolio-card-thumb:hover::after {
+    background: rgba(0, 0, 0, 0); /* Remove shading on hover */
+}
 .portfolio-card .portfolio-card-thumb {
     position: relative;
     border-radius: 5px;
@@ -12271,8 +12284,13 @@ li.trackback {
 .portfolio-card .portfolio-card-thumb img {
     border-radius: 5px;
     width: 100%;
-}
+    filter: brightness(0.8); /* Darken the image */
+    transition: filter 0.3s ease;
 
+}
+.portfolio-card-thumb img:hover {
+    filter: brightness(1); /* Reset to normal brightness on hover */
+}
 .portfolio-card .portfolio-card-details {
     position: absolute;
     z-index: 1;
@@ -12360,7 +12378,7 @@ li.trackback {
     margin: 0;
     padding: 3px 22px;
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .portfolio-card.style2 .icon-btn {
@@ -12412,8 +12430,10 @@ li.trackback {
     .portfolio-card .portfolio-card-thumb img {
         min-height: 500px;
         object-fit: cover;
+        
     }
 
+    
     .portfolio-card .portfolio-card-details_title {
         font-size: 24px;
     }
@@ -16446,5 +16466,21 @@ li.trackback {
     height: 40px;
   }
   
+
+  
+
+
+
+
+  @media (max-width: 767px) {
+      .team-area-2 .title-area {
+          text-align: center;
+      }
+
+      .team-area-2 .carousel-inner img {
+          max-height: 20vh; /* Adjust for smaller screens */
+      }
+  }
+
 
   
