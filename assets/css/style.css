@@ -641,7 +641,6 @@ input {
     width: 100%;
     font-family: var(--body-font);
     transition: 0.4s ease-in-out;
-    padding-right: 45px;
     border-radius: 5px;
 }
 
@@ -2440,9 +2439,9 @@ h3.sec-title {
         line-height: 1.2;
     }
 
-    .sec-text {
+    /* .sec-text {
         margin-top: 0px;
-    }
+    } */
 }
 
 /* Large devices */
@@ -5624,8 +5623,7 @@ ul.wp-block-latest-posts li:last-child {
     }
 
     .header-layout1 .header-logo {
-        /* background: var(--theme-color); */
-        /* padding: 25px; */
+
         position: relative;
     }
 
@@ -5636,7 +5634,6 @@ ul.wp-block-latest-posts li:last-child {
         height: calc(100% + 0px);
         top: 0;
         left: 0;
-        background: var(--theme-color);
         border-radius: 0 0 5px 5px;
         z-index: -1;
     }
@@ -16455,7 +16452,6 @@ li.trackback {
     bottom: 90px; 
     right: 27px;  
     z-index: 1000; 
-    /* background-color: #25D366; WhatsApp green */
     border-radius: 50%;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -16478,7 +16474,7 @@ li.trackback {
       }
 
       .team-area-2 .carousel-inner img {
-          max-height: 20vh; /* Adjust for smaller screens */
+          max-height: 50vh; /* Adjust for smaller screens */
       }
   }
 
