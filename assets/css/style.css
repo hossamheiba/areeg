@@ -11642,7 +11642,7 @@ li.trackback {
 }
 
 .service-card.style2 .service-card_content {
-    border-radius: 30% 70% 51% 49% / 237% 117% 70% 70%;
+    border-radius: 10px ;
     background-size: cover;
     position: relative;
     overflow: hidden;
