@@ -16490,3 +16490,74 @@ li.trackback {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+/* Customize the file input label */
+#file-upload {
+  background-color: #F1683C; /* Set the background color to orange */
+  border: 2px solid #ff7f00 ; /* Border with orange tone */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for better appearance */
+  width: 100%; /* Full width of the container */
+  cursor: pointer; /* Pointer cursor for better UX */
+}
+
+/* Hide default input field and add custom styling */
+input[type="file"] {
+  opacity: 0; /* Hide default input */
+  position: absolute;
+  z-index: -1;
+}
+
+/* Style the label as a custom button */
+label[for="file-upload"] {
+  background-color: #F1683C; /* Set background to orange */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for button-like appearance */
+  display: inline-block;
+  cursor: pointer; /* Make it look clickable */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Add hover effect to the label */
+label[for="file-upload"]:hover {
+  background-color: #F1683C; /* Slightly darker orange on hover */
+}
+
+
+
+/* Customize input fields for date and time */
+input[type="date"],
+input[type="time"] {
+  background-color: #F1683C; /* Set background color to orange */
+  border: 2px solid #F1683C; /* Add an orange border */
+  color: white; /* White text */
+  padding: 10px; /* Add padding for better appearance */
+  width: 100%; /* Full width of the container */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for better UX */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for date and time inputs */
+input[type="date"]:hover,
+input[type="time"]:hover {
+  background-color: #F1683C; /* Slightly darker orange on hover */
+}
+
+/* Focus effect for date and time inputs */
+input[type="date"]:focus,
+input[type="time"]:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px #F1683C; /* Add an orange glow around the input */
+}
+
+
