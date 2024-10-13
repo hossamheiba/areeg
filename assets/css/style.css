@@ -12208,7 +12208,7 @@ li.trackback {
 /* Portfolio 1 ---------------------------------- */
 
 .portfolio-shape-img {
-    opacity: 0.2;
+    opacity: 0.7;
     right: 66px;
     top: 199px;
     transform: rotateY(180deg);
@@ -16077,8 +16077,13 @@ li.trackback {
 }
 
 [dir=rtl] .portfolio-shape-img {
-    left: 66px;
+    left: 0px;
     right: auto;
+    /* Extra large devices */
+}
+
+[dir=rtl] .portfolio-shape-img_footer {
+    right: 30px;
     /* Extra large devices */
 }
 
