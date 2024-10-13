@@ -16479,4 +16479,9 @@ li.trackback {
   }
 
 
-  
+  @media only screen and (max-width: 600px) {
+    input[type="date"],
+    input[type="time"] {
+        width: 100%;
+    }
+}
